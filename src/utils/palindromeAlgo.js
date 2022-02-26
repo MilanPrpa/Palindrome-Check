@@ -1,5 +1,3 @@
-import {alert} from 'react-alert'
-
 export function palindromeAlgo(str){
   let left = 0;
   let right = str.length - 1;
