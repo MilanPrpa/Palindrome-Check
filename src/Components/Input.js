@@ -10,6 +10,7 @@ export default class Input extends React.Component{
     this.state = {
       word: ''
     }
+    this.handleChange = this.handleChange.bind(this)
   }
 
   handleChange = (event)=>{
